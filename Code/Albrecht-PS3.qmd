@@ -9,7 +9,7 @@ editor: visual
 
 This dataset looks at the rates of tick parasitism in 5 species of bats found in the Northeastern US.
 
-## Setting up 
+## Setting up
 
 Clear environment and open relevant packages
 
@@ -108,7 +108,7 @@ Looks good. Move on.
 
 **analysis workflow: plot data -\> build statistical model -\> check model assumptions -\> interpret model -\> make final plot**
 
-## Analysis 1 
+## Analysis 1
 
 **Question proposed:** "Does body mass differ between these five species of bats and, if so, how does body mass differ between the species?"
 
@@ -184,7 +184,7 @@ ggplot(bats, aes(x=common_name, y=mass_g)) +
   ylab("Mass (g)")
 ```
 
-## Analysis 2 
+## Analysis 2
 
 **Question proposed:** Does body length differ between these five species of bats and, if so, how does body length differ between the species?\
 In this analysis, we are comparing a categorical variable (species) and a numerical variable (body length).
@@ -251,7 +251,7 @@ ggplot(bats, aes(x=common_name, y=body_length_mm)) +
   ylab("Body length (mm)")
 ```
 
-## Analysis 3 
+## Analysis 3
 
 **Question proposed:** Is the number of ticks found on the bats associated with their sex or age?
 
@@ -361,7 +361,7 @@ ggplot(bats, aes(x=age, y=tick_num)) +
   ylab("Number of ticks")
 ```
 
-## Analysis 4 
+## Analysis 4
 
 **Question proposed:** Disregarding species, is there a relationship in bats between tail length and body length?
 
